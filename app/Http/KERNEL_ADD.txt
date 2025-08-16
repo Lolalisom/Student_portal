@@ -1,0 +1,6 @@
+In app/Http/Kernel.php add:
+
+protected $routeMiddleware = [
+    // ...
+    'role' => \App\Http\Middleware\EnsureUserHasRole::class,
+];

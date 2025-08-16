@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Neon helpers */
+.neon-text {
+	text-shadow: 0 0 8px rgba(0,229,255,.8), 0 0 20px rgba(255,0,229,.6);
+	color: #00e5ff;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+}
+.neon-border {
+	box-shadow: 0 0 12px 2px rgba(168,255,0,.25), 0 0 16px 2px rgba(0,229,255,.25);
+	border: 1.5px solid #00e5ff;
+}
+
+body, .font-inter {
+	font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	color: #a8ff00;
+	text-shadow: 0 0 6px #00e5ff, 0 0 12px #8a2be2;
+}
+
+.card, .panel, .bg-panel, .bg-neon-panel {
+	background: #0f1733;
+	border-radius: 1rem;
+	box-shadow: 0 0 24px 0 #00e5ff33;
+}
